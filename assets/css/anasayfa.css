@@ -1,47 +1,45 @@
 a.navbar-brand img {
-    width: 108px;
-    padding: 5px;
+  width: 108px;
+  padding: 5px;
 }
 
 .ara {
-    padding-right: 50px !important;
+  padding-right: 50px !important;
 }
 .login {
-    background: right center no-repeat url(download.svg);
-    padding-right: 40px !important;
+  background: right center no-repeat url(download.svg);
+  padding-right: 40px !important;
 }
 li.nav-item > a { 
-    font-size: 13px;
+  font-size: 13px;
 }
-
 
 .back-image{
-    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Hero-MSCOM-Outlook-iOS-Android:VP4-1260x600);
-    height: 600px;
-    margin-top: 10rem;
-    margin-bottom: 7rem;
-    background-position: center;
-    background-size: cover;
-    
-}
-.carousel-left-caption{
-    margin-bottom: 15rem;
-    margin-right: 50rem;
-}
-.carousel-inner{
-  height: 800px;
-}
-.carousel-item  img{
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Hero-MSCOM-Outlook-iOS-Android:VP4-1260x600);
+  height: 600px;
+  margin-top: 10rem;
+  margin-bottom: 7rem;
   background-position: center;
   background-size: cover;
+
+}
+.carousel-left-caption{
+  margin-bottom: 15rem;
+  margin-right: 50rem;
+}
+.carousel-inner{
+height: 800px;
+}
+.carousel-item  img{
+background-position: center;
+background-size: cover;
 }
 
 
 
 
 
-/* Carousel */
-.carousel {
+/* Carousel */.carousel {
   position: relative;
 }
 .carousel-control-prev,
@@ -57,100 +55,101 @@ li.nav-item > a {
   left: auto;
   right: calc(40%);
 }
-/* .bi { background-color: black;} */
+.carousel-inner .bi { background-color: black;}
 .carousel-inner {overflow: visible;}
   
   
-  
-  #carousel-card-2{
-    width: 425px;
-    background-color: transparent;
-    margin-left: 50rem;
-    margin-bottom: 10rem ;
-    box-shadow: none !important;
-    border-radius: 0px !important;
-    text-decoration: none !important;
-    border: 0;
-    position: relative;
-    right: 10rem;
-  }
-  .carousel-inner{
-    height: 600px;
-  }
-  .ios-1{
-    margin-top: 13rem;
-    padding-left: 11rem;
-    padding-right: auto;
 
+
+
+#carousel-card-2{
+  width: 425px;
+  background-color: transparent;
+  margin-left: 50rem;
+  margin-bottom: 10rem ;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  text-decoration: none !important;
+  border: 0;
+  position: relative;
+  right: 10rem;
 }
-  .ios-1 button{
-    padding: 5px 20px;
-    border-radius: 0;
-    font-size: 15px;
-    position: relative;
-    border: 2px solid transparent;
-    max-width: 100%;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-  .carousel-text{
-    position: absolute;
-    bottom: 14rem;
-    left: auto;
-    right: auto;
-  }
-  .carousel-left-caption{
-    margin-bottom: 15rem;
-    margin-right: 50rem;
-}
-.carousel-item .c-img{
-  width: 1399 ;
+.carousel-inner{
   height: 600px;
 }
+.ios-1{
+  margin-top: 13rem;
+  padding-left: 11rem;
+  padding-right: auto;
+
+}
+.ios-1 button{
+  padding: 5px 20px;
+  border-radius: 0;
+  font-size: 15px;
+  position: relative;
+  border: 2px solid transparent;
+  max-width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+
+.carousel-item .c-img{
+width: 1399 ;
+height: 600px;
+}
 @media (max-width: 1084px){
-  .ios-1{
-    background-color: aliceblue;
-    color: #000;
-    width: 90% ;
-    position: absolute;
-    top: 149rem ;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    left: 3rem;
-    right: 3rem;
-  }
-  
+.ios-1{
+  background-color: aliceblue;
+  color: #000;
+  width: 90% ;
+  position: absolute;
+  top: 149rem ;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  left: 3rem;
+  right: 3rem;
+}
+.section-1{
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+}
+.msv-7{
+  background-color: aliceblue;
+  position: relative;
+  top: 12rem;
+}
+
 
 }
 @media (max-width: 860px){
-  .ios-1{
-   
-   
-    
-    top: 170rem;
-    
-  }
-  .back-image{
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-    width: 1083;
-    
-  }
-  .card-container{
-    margin-top: 17rem;
-  }
+.ios-1{
+  top: 170rem;
+}
+
+.back-image{
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 1083;
+
+}
+.card-container{
+  margin-top: 17rem;
+}
 }
 @media (max-width: 730px){
-  .ios-1{
-    top: 233rem;
-    right: 3rem;
-  }
+.ios-1{
+  top: 233rem;
+  right: 3rem;
+}
 }
 
+.msv-7{ 
+position: absolute;
+bottom: 14rem;
 
- 
 
-
-
+}
